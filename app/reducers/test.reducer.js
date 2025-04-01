@@ -1,4 +1,4 @@
-import { RESET_TEST, TEST_FAILURE, TEST_SUCCESS } from "../types/test.types";
+import { RESET_TEST } from "../types/test.types";
 
 const initialState = {
   error  : false,
@@ -8,18 +8,6 @@ const initialState = {
 
 const testReducer = (state = initialState, action) => {
   switch (action.type) {
-    case TEST_SUCCESS:
-      return {
-        ...state,
-        success: true
-      };
-
-    case TEST_FAILURE:
-      return {
-        ...state,
-        success: true
-      };
-
     case RESET_TEST:
       return initialState;
 

@@ -1,3 +1,3 @@
-import testReducer from "./reducers/test.reducer";
+import linkedinReducer from "./reducers/linkedIn.reducer";
 
-export const ReducersRegistry = { "test": testReducer };
+export const ReducersRegistry = { "linkedIn": linkedinReducer };
