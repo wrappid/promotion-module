@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.7 (2025-04-01)
+
+
+### Features
+
+* **core:** :sparkles: adding the linkedinpostscheduler ([f8623a6](https://https//github.com/wrappid/wrappid-module/commit/f8623a6e7f5d93287e9c712de12f60f8cf298ab5)), closes [#1](https://https//github.com/wrappid/wrappid-module/issues/1)
+
 ### [0.0.6](https://https//github.com/wrappid/wrappid-module/compare/v0.0.5...v0.0.6) (2024-07-12)
 
 ### [0.0.5](https://https//github.com/wrappid/wrappid-module/compare/v0.0.4...v0.0.5) (2024-05-03)
