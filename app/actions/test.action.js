@@ -1,14 +1,14 @@
-import { RESET_TEST, TEST_FAILURE, TEST_SUCCESS } from "../types/test.types";
+import { RESET_TEST, POST_FAILURE, POST_SUCCESS } from "../types/test.types";
 
 export const testSuccess = () => {
   return (dispatch) => {
-    dispatch({ type: TEST_SUCCESS });
+    dispatch({ type: POST_SUCCESS });
   };
 };
 
 export const testFailure = () => {
   return (dispatch) => {
-    dispatch({ type: TEST_FAILURE });
+    dispatch({ type: POST_FAILURE });
   };
 };
 

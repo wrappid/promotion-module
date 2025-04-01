@@ -1,3 +1,3 @@
-export const TEST_SUCCESS = "TEST_SUCCESS";
-export const TEST_FAILURE = "TEST_FAILURE";
+export const POST_SUCCESS = "POST_SUCCESS";
+export const POST_FAILURE = "POST_FAILURE";
 export const RESET_TEST = "RESET_TEST";

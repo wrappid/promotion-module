@@ -39,6 +39,14 @@ const RoutesRegistry = {
     reqMethod: "patch",
     controllerRef: "testPatchFunc",
   },
+  postToLinkedIn: {
+    name: "Test Get All API",
+    url: "posttolinkedin",
+    authRequired: true,
+    entityRef: "postToLinkedIn",
+    reqMethod: "post",
+    controllerRef: "postToLinkedIn",
+  },
 };
 
 export default RoutesRegistry;
